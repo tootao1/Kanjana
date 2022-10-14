@@ -1,0 +1,158 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Silkscreen', cursive;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image: url('https://wallpaperaccess.com/full/250557.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.B
+{
+    position: relative;
+    width: 500px;
+    height: 480px;
+    background-color: darkcyan;
+    border-radius: 8px;
+    overflow-x: hidden;
+    
+}
+.B::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 420px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#4169e1,#0000cd);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.D
+{   position: absolute;
+    inset: 6px;
+    border-radius: 8px;
+    background-color: navy;
+    z-index: 10;
+    padding: 40px 30px;
+    display: flex;
+}
+.id
+{
+    position: relative;
+    width: 100;
+    padding: 20px 10px;
+    margin-top: 35px;
+}
+.input
+{
+    padding: 11px 25px;
+    width: 100;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.P
+{
+    position: relative;
+    margin-top: 420px;
+    width: 483.5px;
+    height: 470px;
+    text-align: center;
+    background-color: darkcyan;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.P::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 420px;
+    height: 480px;
+    background: linear-gradient(0deg,transparent,#4169e1,#0000cd);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.P::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 420px;
+    height: 470px;
+    background: linear-gradient(0deg,transparent,transparent,#0000cd);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.E
+{   position: absolute;
+    top: -450%;
+    inset: 6px;
+    border-radius: 8px;
+    background-color: navy;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.GU {
+    border: #0000cd;
+    color: lightgray;
+    
+    background: #4169e1;
+    background: fixed;
+    background-size: cover;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+
+}
+.P {
+    border: 3px solid black;
+}
